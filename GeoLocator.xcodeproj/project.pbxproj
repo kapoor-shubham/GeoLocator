@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		5A87E12221F307BF00AE2F9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A87E12121F307BF00AE2F9A /* AppDelegate.swift */; };
-		5A87E12421F307BF00AE2F9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A87E12321F307BF00AE2F9A /* ViewController.swift */; };
 		5A87E12721F307BF00AE2F9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A87E12521F307BF00AE2F9A /* Main.storyboard */; };
 		5A87E12921F307C100AE2F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A87E12821F307C100AE2F9A /* Assets.xcassets */; };
 		5A87E12C21F307C100AE2F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A87E12A21F307C100AE2F9A /* LaunchScreen.storyboard */; };
 		5A87E13721F307C100AE2F9A /* GeoLocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A87E13621F307C100AE2F9A /* GeoLocatorTests.swift */; };
+		5A87E14221F307DC00AE2F9A /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A87E14121F307DC00AE2F9A /* DiscoverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,6 @@
 /* Begin PBXFileReference section */
 		5A87E11E21F307BF00AE2F9A /* GeoLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A87E12121F307BF00AE2F9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A87E12321F307BF00AE2F9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A87E12621F307BF00AE2F9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A87E12821F307C100AE2F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A87E12B21F307C100AE2F9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		5A87E13221F307C100AE2F9A /* GeoLocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoLocatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A87E13621F307C100AE2F9A /* GeoLocatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocatorTests.swift; sourceTree = "<group>"; };
 		5A87E13821F307C100AE2F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A87E14121F307DC00AE2F9A /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				5A87E12121F307BF00AE2F9A /* AppDelegate.swift */,
-				5A87E12321F307BF00AE2F9A /* ViewController.swift */,
+				5A87E14121F307DC00AE2F9A /* DiscoverViewController.swift */,
 				5A87E12521F307BF00AE2F9A /* Main.storyboard */,
 				5A87E12821F307C100AE2F9A /* Assets.xcassets */,
 				5A87E12A21F307C100AE2F9A /* LaunchScreen.storyboard */,
@@ -197,7 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A87E12421F307BF00AE2F9A /* ViewController.swift in Sources */,
+				5A87E14221F307DC00AE2F9A /* DiscoverViewController.swift in Sources */,
 				5A87E12221F307BF00AE2F9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
